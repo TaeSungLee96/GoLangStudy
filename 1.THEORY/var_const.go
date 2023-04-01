@@ -1,5 +1,5 @@
 // 1. Variables and Constants
-package var_const
+package main
 
 import "fmt"
 
@@ -23,7 +23,7 @@ func printAbbreviation() {
 	fmt.Println(bool)
 }
 
-func PrintAll() {
+func main() {
 	printVariable()
 	printConstant()
 	printAbbreviation()
